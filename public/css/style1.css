@@ -6,3 +6,7 @@ row::after{
     clear: both;
     display: table;
 }
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
